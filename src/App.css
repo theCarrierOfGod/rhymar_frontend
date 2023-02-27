@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.preloaderBody {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  background-color: rgb(115, 111, 115, 0.1);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.topBackground {
+  /* background-image: url('./images/header2.jpg'); */
+  background-size: cover;
+  height: 50vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.body {
+  position: relative;
+  /* background-color: rgb(255,165,0, 0.4); */
+  background-color: rgb(255, 225, 255, 0.5);
+  z-index: 2;
+  min-height: 100vh;
+}
+
+.material-icons-outlined {
+  font-size: inherit !important;
+}
+
+.productText {
+  color: grey;
+}
+
+.productText:hover {
+  color: black;
+}
+
+.noBorder {
+  border: none !important;
+}
+
+.noShadow {
+  box-shadow: none !important;
+}
+
+.hoverShadow:hover {
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+}
+
+.f-28 {
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.btn-rhymar {
+  background-color: #fff0af !important;
+  color: red !important;
+  border-color: red !important;
+}
+
+.btn-rhymar:hover {
+  background-color: #ffffff !important;
+  color: red !important;
+  border-color: black;
+}
+
+a .level-item {
+  color: pink;
+}
+
+.transparent {
+  background-color: transparent !important;
+}
+
+.offNoti {
+  display: block;
+  position: fixed;
+  width: 40vw;
+  height: 30px;
+  background: white;
+  left: 30vw;
+  top: 10px;
+  z-index: 1000;
+  margin: auto;
+  text-align: center;
+  font-family: monospace;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px gray;
+}

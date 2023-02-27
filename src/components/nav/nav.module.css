@@ -1,0 +1,10 @@
+.bgRhymar {
+    background-color: rgb(102, 51, 153, 0.8);
+    padding: 0;
+}
+
+.siteName {
+    text-transform: uppercase;
+    font-family: monospace;
+    color: white;
+}
